@@ -553,6 +553,10 @@ body{
         margin-top: 140%;
         right: 0%;
     }
+    .page-slider__images{
+        width: 340px;
+        height: 260px;
+    }
 }
 
 @media (max-width:340px){
