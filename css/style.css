@@ -185,10 +185,9 @@ body{
     margin-bottom: 30px;
     background: #000;
     transform-style: preserve-3d;
+    margin-right: 25px;
 }
-.portfolio__item + .portfolio__item{
-    margin-left: 30px;
-}
+
 
 .portfolio__item:hover{
     box-shadow: 0 50px 80px rgba(0,0,0, .2);
@@ -512,4 +511,38 @@ body{
 
 .portfolio__page-info{
     margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .main_title{
+        margin-top: 90%;
+    }
+    .main_title h1{
+        font-size: 50px;
+    }
+    .header_nav{
+        width: 430px;
+    }
+    .menu_list {
+        padding: 30px 20px;
+    }
 }
